@@ -1,0 +1,52 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Packaging and test coverage
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local datasets and prepared image variants
+/datasets/
+/experiments/datasets/
+
+# Trained models and generated experiment outputs
+/checkpoints/
+/results/
+/testing/results/
+/paperwork/
+*.ckpt
+*.pth
+*.pt
+
+# Temporary files and source backups
+/tmp/
+/backups/
+/python_backup_*.zip
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo

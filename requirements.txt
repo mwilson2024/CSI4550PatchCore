@@ -1,0 +1,11 @@
+anomalib
+torch
+torchvision
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+lightning
+timm
+pillow
